@@ -1,0 +1,59 @@
+// first player
+
+===============================
+
+- git init
+- git add . 
+- git commit -m "First commit"
+- git branch -M main
+= git remote add origin https://github.com/ali-khaled-ali/GitHub-lab1 
+- git status 
+- git push origin main
+
+= ADDED THE SECOND PLAYER AS A COLLABORATOR
+
+// second player 
+
+================================
+
+- git clone https://github.com/ali-khaled-ali/GitHub-lab1
+- // cosole.log("whatever"); 
+- git add . 
+- git commit -m "Second commit" 
+- git push origin main 
+
+// first player
+
+- git pull origin main
+- // console.log("weqeq");
+- git add .
+- git commit -m "third commit"
+- git push origin main
+
+
+// second player
+
+- git pull 
+- git log 
+
+
+then we reversed situations 
+
+////////// log ////////////////
+commit 601382a4decb610c53196a5186fa761dc4231a40 (HEAD -> master, origin/master)
+Author: abdelfatahh <abdelfatahhezema@gmail.com>
+Date:   Sat Jan 2 09:57:57 2021 +0200
+
+    final committotoo
+
+commit 4471c0206aa8f3f9c02c808896ffd0c2ea7d46f7
+Author: ali-khaled-ali <alikhaledali1010@gmail.com>
+Date:   Sat Jan 2 09:55:39 2021 +0200
+
+    second commit ali
+
+commit 19aa062c90a16159619f9dfbf791f322065baa6d
+Author: abdelfatahh <abdelfatahhezema@gmail.com>
+Date:   Sat Jan 2 09:50:55 2021 +0200
+
+    First commit - abdlefath
